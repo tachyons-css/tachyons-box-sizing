@@ -1,0 +1,29 @@
+{
+  "name": "tachyons-box-sizing",
+  "version": "0.0.1",
+  "homepage": "http://mrmrs.io/tachyons-box-sizing",
+  "description": "Performance based sass module.",
+  "keywords": [
+    "oocss",
+    "sass",
+    "css",
+    "rwd",
+    "design",
+    "tachyons",
+    "css performance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/tachyons-box-sizing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/tachyons-box-sizing/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT"
+}
