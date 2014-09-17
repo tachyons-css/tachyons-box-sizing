@@ -8,6 +8,23 @@ npm install --save-dev tachyons-box-sizing
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+  Box Sizing
+*/
+
+div,
+article,
+section,
+main,
+footer,
+header {
+  box-sizing: border-box;
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
