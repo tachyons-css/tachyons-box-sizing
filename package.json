@@ -1,6 +1,6 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based sass module.",
   "keywords": [
@@ -25,5 +25,8 @@
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-sass": "^0.7.3"
+  }
 }
