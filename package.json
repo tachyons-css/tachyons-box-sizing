@@ -27,6 +27,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^3.8.10",
     "gulp-sass": "^0.7.3"
   }
 }
