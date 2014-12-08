@@ -1,6 +1,7 @@
 {
   "name": "tachyons-box-sizing",
   "version": "0.2.1",
+  "style": "box_sizing.css",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based sass module.",
   "keywords": [
@@ -34,5 +35,8 @@
     "gulp-sass": "^1.1.0",
     "gulp-size": "^1.1.0",
     "gulp-watch": "^2.0.0"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
