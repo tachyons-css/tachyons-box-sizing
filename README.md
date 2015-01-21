@@ -11,7 +11,7 @@ npm install --save-dev tachyons-box-sizing
 or download the css on github and include in your project.
 
 ## The Code
-
+```
 /*
   tachyons-box-sizing.css
 */
@@ -39,7 +39,6 @@ input[type="password"],
 .border-box {
   box-sizing: border-box;
 }
-
 ```
 
 ## Author
