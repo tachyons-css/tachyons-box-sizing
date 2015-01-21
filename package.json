@@ -1,7 +1,7 @@
 {
   "name": "tachyons-box-sizing",
   "version": "0.3.0",
-  "style": "box_sizing.css",
+  "style": "tachyons-box-sizing.css",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based sass module.",
   "keywords": [
