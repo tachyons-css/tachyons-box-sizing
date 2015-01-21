@@ -43,7 +43,7 @@ input[type="password"],
 
 ## Author
 
-[http://mrmrs.io - Open source projects](http://mrmrs.io)
+[mrmrs](http://mrmrs.io)
 
 ## License
 
