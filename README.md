@@ -1,5 +1,8 @@
 # TACHYONS-BOX-SIZING
 
+Performance oriented css modules.
+Uses rework.
+
 http://tachyons.io
 
 Work In Progress. Pull requests and open issues welcome.
@@ -8,7 +11,7 @@ Work In Progress. Pull requests and open issues welcome.
 ```
 npm install --save-dev tachyons-box-sizing
 ```
-or download the css on github and include in your project.
+or download the css on github and include it in your project.
 
 ## The Code
 ```
