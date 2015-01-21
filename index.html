@@ -3,16 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>
-      tachyons box sizing
-    </title>
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <title> Tachyons Box Sizing </title>
+    <meta name="author" content="mrmrs">
+    <meta name="description" content="A small css module for a better box model">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>tachyons box sizing</h1>
-    <h2>Examples</h2>
-<a href="http://npmjs.org/package/tachyons-box-sizing" title="tachyons-box-sizing">View package on npm</a>
+    <header class="container">
+      <h1>Box</h1>
+      <h2>A better box model without using the unperformant * hack.</h2>
+      <h3 class="h4">Only the css you need, none of the css you don't.</h3>
+      <hr>
+      <h1 class="h4">Install via npm</h1>
+      <code> npm install --save-dev tachyons-box-sizing </code>
+      <hr>
+    </header>
+    <main class="container">
+      <div class="row">
+      <div class="col-xs-12">
+      <h1 class="h4">Or cut and paste this code</h1>
+    <pre>
+      <code>
+/*
+  box-sizing.css
+*/
+
+nav,
+main,
+section,
+article,
+aside,
+header,
+footer,
+div,
+details,
+summary,
+form,
+fieldset,
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="password"],
+.border-box {
+  box-sizing: border-box;
+}
+      </code>
+    </pre>
+  </div>
+  </main>
+
+  <footer class="container">
+    <p>Brought to you by <a href="http://mrmrs.io">mrmrs</a></p>
+    </ul>
+  </footer>
   </body>
+
 </html>

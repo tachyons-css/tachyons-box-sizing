@@ -11,20 +11,35 @@ npm install --save-dev tachyons-box-sizing
 or download the css on github and include in your project.
 
 ## The Code
-```
 
 /*
-  Box Sizing
+  tachyons-box-sizing.css
 */
 
-div,
-article,
-section,
+nav,
 main,
+section,
+article,
+aside,
+header,
 footer,
-header {
+div,
+details,
+summary,
+form,
+fieldset,
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="password"],
+.border-box {
   box-sizing: border-box;
 }
+
 ```
 
 ## Author
