@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "style": "tachyons-box-sizing.css",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
     "tachyons",
-    "css performance"
+    "performance"
   ],
   "repository": {
     "type": "git",
