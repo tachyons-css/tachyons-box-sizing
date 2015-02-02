@@ -2,7 +2,7 @@
   "name": "tachyons-box-sizing",
   "version": "2.0.0",
   "style": "tachyons-box-sizing.css",
-  "homepage": "http://mrmrs.io/tachyons-box-sizing",
+  "homepage": "http://github.com/mrmrs/tachyons-box-sizing",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
