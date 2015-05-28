@@ -1,7 +1,7 @@
 # TACHYONS-BOX-SIZING
 
 Performance oriented css modules.
-Uses rework.
+Uses [rework](https://github.com/reworkcss/rework).
 
 http://tachyons.io
 
