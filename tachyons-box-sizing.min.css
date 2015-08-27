@@ -1,1 +1,1 @@
-article,code,div,fieldset,footer,form,header,input[type=text],input[type=tel],input[type=email],input[type=url],input[type=password],main,p,pre,section{box-sizing:border-box}
+div,article,section,main,footer,header,form,fieldset,pre,code,p,input[type="text"],input[type="tel"],input[type="email"],input[type="url"],input[type="password"]{box-sizing:border-box}
