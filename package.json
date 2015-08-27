@@ -1,6 +1,6 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "style": "tachyons-box-sizing.css",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based css module.",
@@ -47,7 +47,6 @@
     "postcss-css-variables": "^0.4.0",
     "postcss-custom-media": "^4.1.0",
     "postcss-import": "^6.2.0"
-
   },
   "scripts": {
     "start": "node build.js"
