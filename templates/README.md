@@ -1,47 +1,22 @@
-# TACHYONS-BOX-SIZING
+# <%= module.name %>
+<%= module.version %>
 
-Performance oriented css modules.
-Uses rework.
-
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-box-sizing
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include it in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-/*
-  tachyons-box-sizing.css
-*/
-
-nav,
-main,
-section,
-article,
-aside,
-header,
-footer,
-div,
-details,
-summary,
-form,
-fieldset,
-textarea,
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="email"],
-input[type="search"],
-input[type="number"],
-input[type="password"],
-.border-box {
-  box-sizing: border-box;
-}
+<%= srcCSS %>
 ```
 
 ## Author
@@ -52,7 +27,7 @@ input[type="password"],
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
