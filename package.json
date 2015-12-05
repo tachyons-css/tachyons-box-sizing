@@ -31,7 +31,6 @@
     "postcss-css-variables": "^0.4.0",
     "postcss-custom-media": "^4.1.0",
     "postcss-import": "^6.2.0",
-    "vinyl-transform": "^1.0.0"
   },
   "scripts": {
     "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
