@@ -21,7 +21,6 @@
   "license": "MIT",
   "devDependencies": {
     "cssstats": "^2.0.1",
-    "perfectionist": "^1.3.1",
   },
   "scripts": {
     "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
