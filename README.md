@@ -1,72 +1,83 @@
-# tachyons-box-sizing
-2.1.0
+# tachyons-box-sizing 2.1.0
 
 Performance based css module.
 
-## Install
+#### Stats
+
+162 | 16 | 1
+---|---|---
+bytes | selectors | declarations
+
+## Installation
+
+#### With [npm](https://npmjs.com)
+
 ```
 npm install --save-dev tachyons-box-sizing
 ```
 
-or download the css on github and include in your project:
+#### With Git
 
 ```
-git clone git@github.com:mrmrs/tachyons-box-sizing
+git clone https://github.com/tachyons-css/tachyons-box-sizing
 ```
 
-## The Code
+## Usage
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "tachyons-box-sizing";
 ```
+
+Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons-cli path/to/css-file.css > dist/t.css
+```
+
+#### Using the CSS
+
+The built CSS is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
+
+```html
+<link rel="stylesheet" href="path/to/module/css/tachyons-box-sizing">
+```
+
+#### Development
+
+The source CSS files can be found in the `src` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+
+## The CSS
+
+```css
 /*
   Box Sizing
 */
-
-div,
-article,
-section,
-main,
-footer,
-header,
-form,
-fieldset,
-pre,
-code,
-p,
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="url"],
-input[type="password"] {
-  box-sizing: border-box;
-}
-
-
+div, article, section, main, footer, header, form, fieldset, pre, code, p,
+input[type="text"], input[type="tel"], input[type="email"], input[type="url"],
+input[type="password"] { box-sizing: border-box; }
 ```
 
-## Author
+## Contributing
 
-[mrmrs](http://mrmrs.io)
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Authors
+
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
 
 ## License
 
-The MIT License (MIT)
-
-Copyright (c) 2015 @mrmrs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+MIT
 
