@@ -1,6 +1,6 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "style": "tachyons-box-sizing.css",
   "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based css module.",
