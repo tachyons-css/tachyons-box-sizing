@@ -2,15 +2,14 @@
   "name": "tachyons-box-sizing",
   "version": "3.0.1",
   "style": "tachyons-box-sizing.css",
-  "homepage": "http://mrmrs.io/tachyons-box-sizing",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-box-sizing.git"
+    "url": "http://github.com/tachyons-css/tachyons-box-sizing.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-box-sizing/issues",
+    "url": "https://github.com/tachyons-css/tachyons-box-sizing/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
