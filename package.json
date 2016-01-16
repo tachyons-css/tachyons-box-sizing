@@ -1,6 +1,6 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "style": "tachyons-box-sizing.css",
   "description": "Performance based css module.",
   "keywords": [],
