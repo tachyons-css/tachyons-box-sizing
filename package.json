@@ -1,17 +1,18 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "3.0.2",
-  "style": "tachyons-box-sizing.css",
+  "version": "3.0.3",
+  "style": "src/tachyons-box-sizing.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-box-sizing.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-box-sizing/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "box-sizing"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-box-sizing",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",

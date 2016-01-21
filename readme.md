@@ -1,4 +1,4 @@
-# tachyons-box-sizing 2.1.0
+# tachyons-box-sizing 3.0.3
 
 Performance based css module.
 
