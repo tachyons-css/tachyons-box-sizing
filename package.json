@@ -22,6 +22,6 @@
     "start": "tachyons src/tachyons-box-sizing.css > css/tachyons-box-sizing.css && tachyons src/tachyons-box-sizing.css --minify > css/tachyons-box-sizing.min.css && tachyons src/tachyons-box-sizing.css --generate-docs --package=../../package.json > readme.md"
   },
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   }
 }
