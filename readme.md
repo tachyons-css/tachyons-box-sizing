@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-162 | 16 | 1
+194 | 26 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -59,9 +59,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /*
   Box Sizing
 */
-div, article, section, main, footer, header, form, fieldset, pre, code, p,
-input[type="text"], input[type="tel"], input[type="email"], input[type="url"],
-input[type="password"] { box-sizing: border-box; }
+html, body, div, article, section, main, footer, header, form, fieldset, pre,
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="text"], input[type="tel"],
+input[type="email"], input[type="url"], input[type="password"], .border-box { box-sizing: border-box; }
 ```
 
 ## Contributing
