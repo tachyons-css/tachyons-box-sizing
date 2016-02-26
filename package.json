@@ -20,9 +20,15 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "tachyons src/tachyons-box-sizing.css > css/tachyons-box-sizing.css && tachyons src/tachyons-box-sizing.css --minify > css/tachyons-box-sizing.min.css && tachyons src/tachyons-box-sizing.css --generate-docs --package=../../package.json > readme.md"
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-box-sizing.css > css/tachyons-box-sizing.css",
+    "build:minify": "tachyons src/tachyons-box-sizing.css --minify > css/tachyons-box-sizing.min.css",
+    "build:docs": "tachyons src/tachyons-box-sizing.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
   },
   "devDependencies": {
-    "tachyons-cli": "^0.3.3"
+    "tachyons-cli": "^0.3.3",
+    "watch": "^0.17.1"
   }
 }
