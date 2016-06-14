@@ -1,10 +1,10 @@
-# tachyons-box-sizing 3.0.3
+# tachyons-box-sizing 3.1.1
 
 Performance based css module.
 
 #### Stats
 
-194 | 26 | 1
+203 | 27 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -60,8 +60,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   Box Sizing
 */
 html, body, div, article, section, main, footer, header, form, fieldset, pre,
-code, p, ul, ol, li, dl, dt, dd, textarea, input[type="text"], input[type="tel"],
-input[type="email"], input[type="url"], input[type="password"], .border-box { box-sizing: border-box; }
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 
 ## Contributing
