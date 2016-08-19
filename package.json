@@ -18,7 +18,7 @@
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "start": "npm run build:watch",
     "build:css": "tachyons src/tachyons-box-sizing.css > css/tachyons-box-sizing.css",
