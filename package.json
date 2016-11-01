@@ -28,7 +28,7 @@
     "build:watch": "watch 'npm run build' ./src"
   },
   "devDependencies": {
-    "tachyons-cli": "^1.0.8",
+    "tachyons-cli": "^1.0.9",
     "watch": "^1.0.1"
   },
   "metadata": {
