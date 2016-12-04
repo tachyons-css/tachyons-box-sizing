@@ -1,10 +1,10 @@
-# tachyons-box-sizing 3.1.6
+# tachyons-box-sizing 3.1.7
 
 Performance based css module.
 
 #### Stats
 
-203 | 27 | 1
+223 | 35 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-box-sizing@3.1.6/css/tachyons-box-sizing.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-box-sizing@3.1.7/css/tachyons-box-sizing.min.css" />
 ```
 
 ##### Locally
@@ -77,10 +77,10 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /*
   Box Sizing
 */
-html, body, div, article, section, main, footer, header, form, fieldset, pre,
-code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
-input[type="number"], input[type="password"], input[type="tel"],
-input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+html, body, div, article, section, main, footer, header, form, fieldset, legend,
+pre, code, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, textarea,
+input[type="email"], input[type="number"], input[type="password"],
+input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 
 ## Contributing
