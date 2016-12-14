@@ -2,6 +2,7 @@
   "name": "tachyons-box-sizing",
   "version": "3.2.0",
   "style": "src/tachyons-box-sizing.css",
+  "main": "src/tachyons-box-sizing.css",
   "description": "Css module for a smarter default box-model.",
   "keywords": [
     "tachyons",
