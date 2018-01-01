@@ -1,10 +1,10 @@
-# tachyons-box-sizing 3.1.7
+# tachyons-box-sizing 3.2.2
 
-Performance based css module.
+Css module for a smarter default box-model.
 
-#### Stats
+### Stats
 
-223 | 35 | 1
+249 | 40 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-box-sizing@3.1.7/css/tachyons-box-sizing.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-box-sizing@3.2.2/css/tachyons-box-sizing.min.css" />
 ```
 
 ##### Locally
@@ -77,10 +77,11 @@ Running `$ npm start` will process the source css and place the built css in the
 /*
   Box Sizing
 */
-html, body, div, article, section, main, footer, header, form, fieldset, legend,
-pre, code, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, textarea,
-input[type="email"], input[type="number"], input[type="password"],
-input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+html, body, div, article, aside, section, main, nav, footer, header, form,
+fieldset, legend, pre, code, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt,
+dd, blockquote, figcaption, figure, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 
 ## Contributing
