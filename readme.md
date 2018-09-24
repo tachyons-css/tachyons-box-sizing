@@ -1,4 +1,4 @@
-# tachyons-box-sizing 3.2.2
+# tachyons-box-sizing 3.2.3
 
 Css module for a smarter default box-model.
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-box-sizing@3.2.2/css/tachyons-box-sizing.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-box-sizing@3.2.3/css/tachyons-box-sizing.min.css" />
 ```
 
 ##### Locally
